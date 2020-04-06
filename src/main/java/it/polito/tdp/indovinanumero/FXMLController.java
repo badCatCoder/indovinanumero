@@ -79,7 +79,7 @@ public class FXMLController {
 		}
 
 		this.txtRisultato
-				.appendText((tentativo > this.segreto) ? "Tentativo troppo BASSO \n" : "Tentativo troppo ALTO \n");
+				.appendText((tentativo < this.segreto) ? "Tentativo troppo BASSO \n" : "Tentativo troppo ALTO \n");
 
 		this.txtRimasti.setText(Integer.toString(TMAX - this.tentativiFatti));
 	}
