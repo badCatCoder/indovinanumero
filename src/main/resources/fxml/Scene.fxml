@@ -3,6 +3,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
@@ -35,7 +36,7 @@
                         <Insets right="10.0" />
                      </HBox.margin>
                   </Label>
-                  <TextField fx:id="txtRimasti" editable="false" />
+                  <ProgressBar fx:id="barRimasti" disable="true" prefWidth="200.0" progress="1.0" />
                </children>
                <VBox.margin>
                   <Insets bottom="20.0" top="20.0" />
